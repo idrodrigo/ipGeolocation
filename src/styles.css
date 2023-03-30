@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141414;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+}
+
+.container-title {
+  color: rgb(122, 236, 107);
+  display: block;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 20px;
+  font-weight: 300;
+}
+
+.container-input {
+  background-color: rgb(33, 31, 42);
+  border-radius: 10px;
+  border: none;
+  color: rgb(122, 236, 107);
+  font-size: 20px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.container-submit {
+  background-color: rgb(122, 236, 107);
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  font-weight: 900;
+}
+
+.container-submit:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.error-container {
+  animation: fadeIn 0.5s ease;
+  background-color: rgba(222, 94, 94, 0.8);
+  border-radius: 5px;
+  color: black;
+  margin-top: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.error-container p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.response-container {
+  background-color: rgb(33, 31, 42);
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  animation: fadeIn 0.5s ease;
+}
+
+.response-container pre {
+  font-weight: 600;
+  color: rgb(122, 236, 107);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+}
